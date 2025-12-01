@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Privilix - Less stress. More community.</title>
+        <link
+            rel="stylesheet"
+            href="assets/css/index.css"
+            type="text/css"
+            media="all"
+        />
+    </head>
+    <body>
+        <div class="bg-animation"></div>
+
+        <nav>
+            <div class="logo">
+                <img src="assets/img/nav-logo.png" width="150px" alt="" />
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="https://github.com/ayushdotdev">Github</a></li>
+                <li><a href="https://discord.gg/K6EDkaVERk">Support</a></li>
+                <li><a href="https://discord.com/oauth2/authorize?client_id=1133741199505760266&permissions=8&integration_type=0&scope=bot" class="btn-primary active">Add to Discord</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="https://github.com/ayushdotdev">Github</a></li>
+                <li><a href="https://discord.gg/K6EDkaVERk">Support</a></li> 
+            </ul>
+            <a href="https://discord.com/oauth2/authorize?client_id=1133741199505760266&permissions=8&integration_type=0&scope=bot" class="btn-primary">Add to Discord</a>
+        </div>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1>
+                    Moderation That<br />
+                    Doesn't Feel <span class="gradient-text">Like Work.</span>
+                </h1>
+                <p>
+                    Handle mistakes in one tap. Clean logs, simple controls, and zero clutter. Privilix keeps your server running smoothly without turning moderation into a chore.
+                </p>
+                <div class="cta-buttons">
+                    <a href="https://discord.com/oauth2/authorize?client_id=1133741199505760266&permissions=8&integration_type=0&scope=bot" class="btn-primary">Add to Discord</a>
+                    <a href="https://discord.gg/K6EDkaVERk" class="btn-secondary">Join Support</a>
+                </div>
+            </div>
+        </section>
+        <!-- Features Section -->
+        <section class="features-section">
+            <div class="section-header">
+                <h2>Top Features</h2>
+                <p>
+                    Everything you need to build and manage a thriving Discord
+                    community
+                </p>
+            </div>
+
+            <div class="feature-row">
+                <div class="feature-content">
+                    <h3>Easy Moderation</h3>
+                    <p>
+                        Keep your server calm, clean, and in control. Powerful moderation. Smart filters. Actions that take seconds. Everything just works, without the noise.
+                    </p>
+                </div>
+                <div class="feature-visual">
+                    <div class="visual-card moderation">
+                        <svg
+                            viewBox="0 0 200 200"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <defs>
+                                <linearGradient
+                                    id="shieldGradient"
+                                    x1="0%"
+                                    y1="0%"
+                                    x2="0%"
+                                    y2="100%"
+                                >
+                                    <stop
+                                        offset="0%"
+                                        style="
+                                            stop-color: #3b82f6;
+                                            stop-opacity: 1;
+                                        "
+                                    />
+                                    <stop
+                                        offset="100%"
+                                        style="
+                                            stop-color: #1e40af;
+                                            stop-opacity: 1;
+                                        "
+                                    />
+                                </linearGradient>
+                            </defs>
+                            <path
+                                d="M100 20 L160 40 L160 100 C160 130 140 160 100 180 C60 160 40 130 40 100 L40 40 Z"
+                                fill="url(#shieldGradient)"
+                                stroke="#60a5fa"
+                                stroke-width="2"
+                            />
+                            <circle cx="80" cy="80" r="8" fill="#60a5fa" />
+                            <circle cx="120" cy="80" r="8" fill="#60a5fa" />
+                            <path
+                                d="M70 110 Q100 130 130 110"
+                                stroke="#60a5fa"
+                                stroke-width="4"
+                                fill="none"
+                                stroke-linecap="round"
+                            />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="feature-row reverse">
+                <div class="feature-content">
+                    <h3>Lightning Fast Modlog Editing</h3>
+                    <p>
+                        Modlogs you can change in seconds. No commands to type. No codes to remember. Just effortless control at the moment you need it.
+                    </p>
+                </div>
+                <div class="feature-visual">
+                    <div class="visual-card lightning">
+                        <svg
+                            viewBox="0 0 200 200"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <defs>
+                                <linearGradient
+                                    id="lightningGradient"
+                                    x1="0%"
+                                    y1="0%"
+                                    x2="100%"
+                                    y2="100%"
+                                >
+                                    <stop
+                                        offset="0%"
+                                        style="
+                                            stop-color: #60a5fa;
+                                            stop-opacity: 1;
+                                        "
+                                    />
+                                    <stop
+                                        offset="100%"
+                                        style="
+                                            stop-color: #2563eb;
+                                            stop-opacity: 1;
+                                        "
+                                    />
+                                </linearGradient>
+                            </defs>
+                            <path
+                                d="M100 20 L80 90 L120 90 L90 170 L140 80 L110 80 Z"
+                                fill="url(#lightningGradient)"
+                                stroke="#60a5fa"
+                                stroke-width="2"
+                            />
+                            <circle
+                                cx="50"
+                                cy="60"
+                                r="3"
+                                fill="#60a5fa"
+                                opacity="0.6"
+                            >
+                                <animate
+                                    attributeName="opacity"
+                                    values="0.3;1;0.3"
+                                    dur="2s"
+                                    repeatCount="indefinite"
+                                />
+                            </circle>
+                            <circle
+                                cx="150"
+                                cy="100"
+                                r="3"
+                                fill="#60a5fa"
+                                opacity="0.6"
+                            >
+                                <animate
+                                    attributeName="opacity"
+                                    values="1;0.3;1"
+                                    dur="2s"
+                                    repeatCount="indefinite"
+                                />
+                            </circle>
+                            <circle
+                                cx="60"
+                                cy="140"
+                                r="3"
+                                fill="#60a5fa"
+                                opacity="0.6"
+                            >
+                                <animate
+                                    attributeName="opacity"
+                                    values="0.5;1;0.5"
+                                    dur="2s"
+                                    repeatCount="indefinite"
+                                />
+                            </circle>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="feature-row">
+                <div class="feature-content">
+                    <h3>Get Suggestions from Your Members</h3>
+                    <p>
+                        A simple way for your community to be heard. Share ideas, vote instantly, and watch the best suggestions surface on their own.
+                    </p>
+                </div>
+                <div class="feature-visual">
+                    <div class="visual-card customize">
+                        <svg
+                            viewBox="0 0 200 200"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <defs>
+                                <linearGradient
+                                    id="paletteGradient"
+                                    x1="0%"
+                                    y1="0%"
+                                    x2="100%"
+                                    y2="0%"
+                                >
+                                    <stop
+                                        offset="0%"
+                                        style="
+                                            stop-color: #1e40af;
+                                            stop-opacity: 1;
+                                        "
+                                    />
+                                    <stop
+                                        offset="50%"
+                                        style="
+                                            stop-color: #2563eb;
+                                            stop-opacity: 1;
+                                        "
+                                    />
+                                    <stop
+                                        offset="100%"
+                                        style="
+                                            stop-color: #3b82f6;
+                                            stop-opacity: 1;
+                                        "
+                                    />
+                                </linearGradient>
+                            </defs>
+                            <rect
+                                x="40"
+                                y="60"
+                                width="120"
+                                height="80"
+                                rx="8"
+                                fill="none"
+                                stroke="url(#paletteGradient)"
+                                stroke-width="3"
+                            />
+                            <circle cx="70" cy="90" r="12" fill="#1e40af" />
+                            <circle cx="100" cy="90" r="12" fill="#2563eb" />
+                            <circle cx="130" cy="90" r="12" fill="#3b82f6" />
+                            <path
+                                d="M50 110 L80 110"
+                                stroke="#60a5fa"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                            />
+                            <path
+                                d="M90 110 L150 110"
+                                stroke="#60a5fa"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                            />
+                            <path
+                                d="M50 125 L120 125"
+                                stroke="#60a5fa"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                            />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="cta-container">
+                <div class="cta-content">
+                    <h2>Ready to Supercharge Your Server?</h2>
+                    <p>
+                        Invite our bot to
+                        enhance your server experience
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="https://discord.com/oauth2/authorize?client_id=1133741199505760266&permissions=8&integration_type=0&scope=bot" class="btn-cta-primary">Add to Discord</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-container">
+
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Privilix. All rights reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="#">Privacy</a>
+                        <a href="#">Terms</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+            function toggleMenu() {
+                const hamburger = document.querySelector(".hamburger");
+                const mobileMenu = document.querySelector(".mobile-menu");
+                hamburger.classList.toggle("active");
+                mobileMenu.classList.toggle("active");
+            }
+
+            // Close menu when clicking outside
+            document.addEventListener("click", function (event) {
+                const mobileMenu = document.querySelector(".mobile-menu");
+                const hamburger = document.querySelector(".hamburger");
+                const isClickInside =
+                    mobileMenu.contains(event.target) ||
+                    hamburger.contains(event.target);
+
+                if (!isClickInside && mobileMenu.classList.contains("active")) {
+                    hamburger.classList.remove("active");
+                    mobileMenu.classList.remove("active");
+                }
+            });
+        </script>
+    </body>
+</html>
